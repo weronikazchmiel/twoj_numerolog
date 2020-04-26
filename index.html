@@ -10,10 +10,18 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/cookiealert.css" rel="stylesheet">
     <link href="./css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
         <a class="navbar-brand logo-image" href="index.html"><img src="img/logo_przezroczysteTlo.png" alt="Twój numerolog - logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,8 +64,8 @@
                     <div class="col-lg-12">
                         <div class="text-container">
                             <h1><span id="js-rotating">POZNAJ, ZBADAJ, ZROZUM</span> SWÓJ POTENCJAŁ</h1>
-                            <p class="p-heading p-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, mollitia.</p>
-                            <a class="btn-solid-lg page-scroll" href="#intro">ODKRYJ</a>
+                            <p class="p-heading p-large">bo stare klucze nie otworzą nowych drzwi</p>
+                            <a class="btn-solid-lg page-scroll" href="#intro">DALEJ</a>
                         </div>
                     </div>
                 </div>
@@ -70,8 +78,8 @@
                 <div class="col-lg-5">
                     <div class="text-container">
                         <div class="section-title">INTRO</div>
-                        <h2>Nauka o potencjale</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam ratione repellendus suscipit tempora voluptatum!</p>
+                        <h2>Droga do samopoznania</h2>
+                        <p>Nigdy nie osiągnie się zewnętrznych zmian, o&nbsp;jakich się marzy, jeśli nie dokona się wewnętrznej przemiany.</p>
                         <p class="testimonial-text">"Nie można zmusi ziarna do rozwoju i kiełkowania, można jedynie sworzy warunki pozwalające na to, aby ziarno rozwinęło wszystkie tkwiące w nim możliwości."</p>
                         <div class="testimonial-author">Carl Rogers – amerykański psycholog i psychoterapeuta</div>
                     </div>
@@ -122,6 +130,347 @@
             </div>
         </div>
     </div>
+    <div id="numerology" class="filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">NUMEROLOGIA</div>
+                    <h2>Nasze wibracje</h2>
+                    <p>Liczby są wszędzie - w nas i wokół nas. Z ich pomocą określić można wiele elementów naszego życia. Można ich też użyć do opisu nas samych, naszej psychiki, naszego losu, naszych wielkości i ograniczeń. Taki cel ma NUMEROLOGIA.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis ducimus earum ex, harum nobis pariatur quaerat quasi sequi tenetur totam unde voluptate! Architecto deserunt dolores, dolorum ea possimus sapiente.</p>
+                    <p>Ponizej mozesz policzyc swoja droge zycia - sumujac wszystkie liczby w Twojej dacie urodzenia.</p>
+                    <form id="birthNumber">
+
+                        <div class="form-group calculator col-lg-6">
+                            <input type="text" class="form-control-input" id="birthDate">
+                            <label class="label-control" for="birthDate">DD/MM/RRRR</label>
+                            <button type="submit" class="btn-solid-lg">Oblicz</button>
+                        </div>
+                        <p id="numerology-result" class="col-lg-6"></p>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="grid">
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Jeden</span></div><img src="img/1.jpg" alt=" one"></a>
+                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Dwa</span></div><img src="img/2.jpg" alt=" two"></a>
+                        </div>
+                        <div class="element-item design development marketing">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Trzy</span></div><img src="img/3.jpg" alt=" three"></a>
+                        </div>
+                        <div class="element-item design development marketing">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Cztery</span></div><img src="img/4.jpg" alt=" four"></a>
+                        </div>
+                        <div class="element-item design development marketing seo">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Pięć</span></div><img src="img/5.jpg" alt=" five"></a>
+                        </div>
+                        <div class="element-item design marketing seo">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Sześć</span></div><img src="img/6.jpg" alt=" six"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Siedem</span></div><img src="img/7.jpg" alt=" seven"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Osiem</span></div><img src="img/8.jpg" alt=" eight"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-9"><div class="element-item-overlay"><span>Dziewięć</span></div><img src="img/9.jpg" alt=" nine"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-11"><div class="element-item-overlay"><span>Jedenaście</span></div><img src="img/10.jpg" alt=" eleven"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-22"><div class="element-item-overlay"><span>Dwadzieścia dwa</span></div><img src="img/11.jpg" alt=" twenty two"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-33"><div class="element-item-overlay"><span>Trzydzieści trzy</span></div><img src="img/12.jpg" alt=" thirty three"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number1.jpg" alt="number one">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Jeden</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number2.jpg" alt="number two">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Dwa</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number3.jpg" alt="number three">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Trzy</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number4.jpg" alt="number four">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Cztery</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number5.jpg" alt="number five">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Pięć</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number6.jpg" alt="number six">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Sześć</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number7.jpg" alt="number seven">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Siedem</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number8.jpg" alt="number eight">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Osiem</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-9" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number9.jpg" alt="number nine">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Dziewięć</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-11" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number11.jpg" alt="number eleven">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Jedenaście</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-22" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number22.jpg" alt="number twenty two">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Dwadzieścia dwa</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project-33" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/number33.jpg" alt="number thirty three">
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h3>Trzydzieści trzy</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae consequuntur in necessitatibus neque perspiciatis rerum. A distinctio dolor ullam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem dolore enim inventore quod totam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque, ducimus ea error eveniet inventore.</p>
+                <div class="testimonial-container">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus est et iste iusto minus nostrum pariatur, praesentium reiciendis!</p>
+                    <p class="testimonial-author">Lorem ipsum.</p>
+                </div>
+                <div class="btn-cntr">
+                    <a class="btn-outline-reg mfp-close as-button">ZAMKNIJ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of project lightboxes -->
 
 
 <!-- Contact -->
@@ -176,6 +525,7 @@
 <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
 <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
 <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
 <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
 <script src="js/cookiealert.js"></script>
 <script src="js/scripts.js"></script> <!-- Custom scripts -->
