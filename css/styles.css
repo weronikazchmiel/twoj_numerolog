@@ -780,6 +780,15 @@ input[type='checkbox'] {
 	color: #61354B;
 }
 
+.header-content i.fa-angle-double-down {
+	margin-top: 240px;
+	font-size: 40px;
+}
+
+.header-content i.fa-angle-double-down:hover {
+	color: #fff;
+}
+
 
 /*********************/
 /*     05. Intro     */
@@ -978,6 +987,21 @@ input[type='checkbox'] {
 	display: flex;
 }
 
+.filter .list-unstyled {
+	margin-bottom: 1.5rem;
+}
+
+.filter .list-unstyled .fas {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.filter .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+
 
 
 /**********************************/
@@ -1061,6 +1085,58 @@ input[type='checkbox'] {
 	display: flex;
 	justify-content: center;
 }
+
+
+/*********************/
+/*     15. About     */
+/*********************/
+.counter {
+	padding-top: 6.875rem;
+	padding-bottom: 5.25rem;
+}
+
+.counter .image-container {
+	margin-bottom: 3rem;
+}
+
+.counter .image-container img {
+	border-radius: 0.25rem;
+}
+
+.counter .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.counter h2 {
+	margin-bottom: 1.375rem;
+}
+
+.counter #counter {
+	text-align: center;
+}
+
+.counter #counter .cell {
+	display: inline-block;
+	width: 9.5rem;
+	margin-bottom: 0.75rem;
+}
+
+.counter #counter .counter-value {
+	display: inline-block;
+	margin-bottom: 0.125rem;
+	color: #14bf98;
+	font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
+	vertical-align: middle;
+}
+
+.counter #counter .counter-info {
+	display: inline-block;
+	margin-left: 0.5rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	vertical-align: middle;
+}
+
 
 /***********************/
 /*     16. Contact     */
@@ -1385,7 +1461,7 @@ input[type='checkbox'] {
 	/* Header */
 	.header .header-content {
 		padding-top: 14rem;
-		padding-bottom: 15rem;
+		padding-bottom: 10rem;
 	}
 
 	.header .text-container {
@@ -1591,7 +1667,7 @@ input[type='checkbox'] {
 	/* Header */
 	.header .header-content {
 		padding-top: 14.75rem;
-		padding-bottom: 17.5rem;
+		padding-bottom: 10rem;
 	}
 	/* end of header */
 
